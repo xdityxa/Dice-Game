@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Aditya Gupta">
+    <title>Dice Game | Welcome</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+
+</head>
+
+<body>
+
+
+
+    <div id="container">
+
+
+        <div id="player1Block">
+            <div id='playerName'>Player 1</div>
+            <div id='player1Score'>0</div>
+            <div id='totalScoreBox'>
+                <div id='totalScore'>0</div>
+                <div id='totalScoreText'>Total Score</div>
+            </div>
+        </div>
+
+        <div id="player2Block">
+            <div id="playerName">Player 2</div>
+            <div id="player2Score">0</div>
+            <div id="totalScoreBox">
+                <div id="totalScore">0</div>
+                <div id="totalScoreText">Total Score</div>
+            </div>
+        </div>
+<!--
+        <button id='newGameButton' onclick='newGame()'>
+            <i class="fa fa-plus-circle"></i>NEW GAME</button>
+-->
+
+        <button id='rollButton' onclick='rollDice()'>
+            <i class='fas fa-dice'></i>ROLL DICE</button>
+
+        <img src="dice-5.png" id="diceImage">
+        
+        <div id = 'timerIcon'><i class="fa fa-clock-o"></i></div>
+        
+        <div id='timer'>20s</div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body></html>
