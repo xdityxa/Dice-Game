@@ -12,7 +12,6 @@ function rollDice() {
 
     if (time <= 0) {
         document.getElementById('rollButton').disable = true;
-        //        alert("Final Score Is -" +sum);
     }
 
     random = Math.floor(Math.random() * 6 + 1);

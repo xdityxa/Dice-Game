@@ -5,14 +5,12 @@
 }
 
 body {
-    /*    font-family: 'Gayathri', sans-serif;*/
-
     position: absolute;
-
     background-image: url(img/mario-1558068_1920.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: gray;
+    background-position: center;
     position: relative;
     height: 100vh;
 }
@@ -30,9 +28,10 @@ body {
     float: left;
     height: 620px;
     padding: 100px;
+    box-shadow: 10px black;
     background-color: white;
     border-radius: 50px 0 0 50px;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.7));
 }
 
 #player2Block {
@@ -42,7 +41,7 @@ body {
     padding: 100px;
     background-color: white;
     border-radius: 0px 50px 50px 0px;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7));
 }
 
 #playerName {
@@ -149,7 +148,7 @@ button:hover i {
 
 #diceImage {
     position: absolute;
-    right: 40%;
+    right: 42.5%;
     top: 220px;
     /*  transform: translateX(-50%);*/
     height: 130px;
